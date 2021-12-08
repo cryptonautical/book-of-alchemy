@@ -9,6 +9,9 @@ import { ChakraProvider } from '@chakra-ui/react';
 import customTheme from './theme';
 import { GlobalStyles } from './theme/styles/global-styles';
 import { Global } from '@emotion/react';
+import { Provider as ReduxProvider } from 'react-redux';
+import { store } from './store/store';
+import { ReactQueryDevtools } from 'react-query/devtools';
 
 export const queryClient = new QueryClient({
     defaultOptions: {
@@ -24,10 +27,13 @@ ReactDOM.render(
   <React.StrictMode>
     <Web3ReactProvider getLibrary={getLibrary} >
         <QueryClientProvider client={queryClient}>
-            <ChakraProvider theme={customTheme}>
-                <Global styles={GlobalStyles} />
-                <App />
-            </ChakraProvider>
+            <ReactQueryDevtools initialIsOpen={false} />
+            <ReduxProvider store={store}>
+                <ChakraProvider theme={customTheme}>
+                    <Global styles={GlobalStyles} />
+                    <App />
+                </ChakraProvider>
+            </ReduxProvider>
         </QueryClientProvider>
     </Web3ReactProvider>
   </React.StrictMode>,
