@@ -6,7 +6,7 @@ import {
   Text,
   Link as ChakraLink
 } from '@chakra-ui/react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useMediaQuery } from '@chakra-ui/react';
 import UserWallet from '../connectWallet/UserWallet';
 

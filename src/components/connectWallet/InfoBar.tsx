@@ -5,8 +5,7 @@ import {
     useToast,
     Text,
     Link,
-    IconButton,
-    Box,
+    IconButton
 } from '@chakra-ui/react';
 import {useWeb3React} from '../../hooks/web3';
 import {getAddress} from 'ethers/lib/utils';
@@ -33,7 +32,7 @@ const ConnectedWalletInfoBar = () => {
                 isClosable: true,
             });
         }
-    }, [hasCopied]);
+    }, [hasCopied, toast, walletName]);
 
     return (
         <HStack

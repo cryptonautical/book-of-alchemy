@@ -1,4 +1,4 @@
-import { BigNumber, ethers } from 'ethers';
+import { BigNumber } from 'ethers';
 
 export enum Queries {
   TOKEN_ICON = 'tokenIcon',

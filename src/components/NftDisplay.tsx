@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import { VStack } from '@chakra-ui/react';
 import { NftGallery } from 'react-nft-gallery';
 import { useWeb3React } from '../hooks/web3';
 import { useWalletAssets } from '../hooks/query/useWalletAssets';

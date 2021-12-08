@@ -1,9 +1,4 @@
 import { BigNumber } from '@ethersproject/bignumber';
-import { ethers } from 'ethers';
-import { Web3Provider } from '@ethersproject/providers';
-import { ERC721Token } from '../types';
-import { queryClient } from '../index';
-import { Queries } from '../types';
 
 interface TransactionData {
   status: string;

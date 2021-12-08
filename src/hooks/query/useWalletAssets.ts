@@ -6,7 +6,7 @@ import {Queries} from '../../types';
 import {AssetDetail} from '../../helpers/wallet'
 
 export function useWalletAssets(contract: string[]) {
-    const {account, chainId = 1, provider} = useWeb3React();
+    const {account, chainId = 1} = useWeb3React();
     const {etherscanApiKey} = useConfig(chainId).commonConfig;
     return useQuery<AssetDetail[]>(
         [Queries.WALLET_ASSETS, account, chainId],
