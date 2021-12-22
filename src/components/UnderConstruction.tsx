@@ -7,7 +7,7 @@ const UnderConstruction: FC = () => {
     <VStack>
       <Img src='https://cdn.discordapp.com/attachments/908714831945818152/916377119808970822/boa.png' />
       <Button>
-        <Link rel='noopener noreferrer' target='_blank' href='https://discord.gg/KrAy9Hjx' >
+        <Link rel='noopener noreferrer' target='_blank' href='https://discord.gg/u5wQH7mj' >
           Join the conversation in Discord
         </Link>
       </Button>
