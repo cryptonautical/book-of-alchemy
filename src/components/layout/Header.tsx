@@ -48,9 +48,8 @@ const Header: FC = () => {
                 <Text>Get Weapon</Text>
               </ChakraLink>
               <ChakraLink
-                  as={Link}
-                  fontWeight='medium'
-                  to='/'
+                  isExternal
+                  href='https://forms.gle/aEQyi6sr1o2aTk666'
               >
                 <Text>Sign up for alpha</Text>
               </ChakraLink>
