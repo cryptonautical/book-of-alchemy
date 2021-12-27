@@ -21,7 +21,7 @@ const Footer: FC = () => {
                 >
                   Twitter
                 </ChakraLink>
-                <ChakraLink isExternal href='https://discord.gg/u5wQH7mj'>
+                <ChakraLink isExternal href='https://discord.gg/bNDtj4Fz'>
                   Discord
                 </ChakraLink>
                 <ChakraLink
