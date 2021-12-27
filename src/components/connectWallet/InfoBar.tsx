@@ -41,7 +41,7 @@ const ConnectedWalletInfoBar = () => {
             px={2}
             border='1px'
             borderRadius='xl'
-            borderColor='gray.700'
+            borderColor='orange.700'
             justifyContent='space-between'
         >
             <HStack alignItems='center'>

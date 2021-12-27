@@ -3,7 +3,7 @@ import { ButtonStyles } from './styles/buttonStyles';
 import { TagStyles } from './styles/tagStyles';
 
 const config: ThemeConfig = {
-  initialColorMode: 'dark',
+  initialColorMode: 'light',
   useSystemColorMode: false,
 };
 
@@ -89,8 +89,8 @@ const customTheme = extendTheme({
     },
   },
   fonts: {
-    heading: 'Poppins, system-ui, sans-serif',
-    body: 'Poppins, system-ui, sans-serif',
+    heading: 'Bubblegum Sans',
+    body: 'Bubblegum Sans',
   },
   components: {
     Button: ButtonStyles,

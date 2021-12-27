@@ -33,7 +33,7 @@ const NftDisplay: FC = () => {
     return (
         <NftGallery
             ownerAddress={account!}
-            darkMode={true}
+            darkMode={false}
             showcaseMode={true}
             showcaseItemIds={generateIds(contracts, walletAssets!)}
         />

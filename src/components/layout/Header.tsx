@@ -27,6 +27,40 @@ const Header: FC = () => {
               >
                 <Text>Home</Text>
               </ChakraLink>
+              <ChakraLink
+                  as={Link}
+                  fontWeight='medium'
+                  to='/'
+              >
+                <Text>Get ALCH</Text>
+              </ChakraLink>
+              <ChakraLink
+                  as={Link}
+                  fontWeight='medium'
+                  to='/'
+              >
+                <Text>Get Lore</Text>
+              </ChakraLink>
+              <ChakraLink
+                  isExternal
+                  href='https://opensea.io/collection/weapons-book-of-alchemy'
+              >
+                <Text>Get Weapon</Text>
+              </ChakraLink>
+              <ChakraLink
+                  as={Link}
+                  fontWeight='medium'
+                  to='/'
+              >
+                <Text>Sign up for alpha</Text>
+              </ChakraLink>
+              <ChakraLink
+                  as={Link}
+                  fontWeight='medium'
+                  to='/nft-display'
+              >
+                <Text>Nft Display</Text>
+              </ChakraLink>
             </HStack>
           )}
         </HStack>

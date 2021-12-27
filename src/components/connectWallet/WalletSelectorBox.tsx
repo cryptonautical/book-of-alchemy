@@ -72,7 +72,7 @@ const WalletSelectorBox = ({ connector, title, src }: Props) => {
   return (
     <GradientBackground visible={isActive} borderRadius='xl'>
       <Flex
-        bg='gray.800'
+        bg='orange.800'
         height='130px'
         alignItems='center'
         direction='column'
@@ -80,7 +80,7 @@ const WalletSelectorBox = ({ connector, title, src }: Props) => {
         borderRadius='xl'
         borderWidth='1px'
         _hover={{
-          backgroundColor: 'gray.700',
+          backgroundColor: 'orange.700',
           cursor: 'pointer'
         }}
       >
@@ -110,7 +110,7 @@ const WalletSelectorBox = ({ connector, title, src }: Props) => {
           </Link>
         )}
         {isActive && !(activeConnector === injectedConnector) && (
-          <Text fontSize='sm' textColor='gray.400' onClick={handleDisconnect}>
+          <Text fontSize='sm' textColor='orange.400' onClick={handleDisconnect}>
             Disconnect
           </Text>
         )}

@@ -18,11 +18,11 @@ const UserWallet: FC = () => {
     openModal(ModalType.connectWallet);
   };
   const buttonProps = {
-    bg: 'gray.900',
+    bg: 'orange.300',
     variant: 'ghost',
-    _focus: { bg: 'gray.900' },
-    _hover: { bg: 'gray.800' },
-    _active: { bg: 'gray.800' }
+    _focus: { bg: 'orange.900' },
+    _hover: { bg: 'orange.800' },
+    _active: { bg: 'orange.800' }
   };
 
   if (account) {

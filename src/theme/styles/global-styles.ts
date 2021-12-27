@@ -1,7 +1,4 @@
-import '@fontsource/poppins/400.css';
-import '@fontsource/poppins/500.css';
-import '@fontsource/poppins/600.css';
-import '@fontsource/poppins/700.css';
+import '@fontsource/bubblegum-sans/400.css';
 
 import 'focus-visible';
 
@@ -18,7 +15,7 @@ export const GlobalStyles = css`
     box-shadow: none;
   }
   body {
-    background: ${customTheme.colors.gray[900]};
+    background: ${"#f8ffef"};
   }
   .responsiveTable td .tdBefore {
     display: none;
@@ -92,6 +89,6 @@ export const GlobalStyles = css`
   }
 
   .paging-dot {
-    fill: ${customTheme.colors.gray[300]};
+    fill: ${customTheme.colors.orange[300]};
   }
 `;

@@ -23,7 +23,7 @@ const TxPendingApprovalModal: FC<Props> = ({ message }) => {
             <Center my={8}>
               <Spinner width={24} height={24} />
             </Center>
-            <Box textAlign='center' color='gray.200' my={4}>
+            <Box textAlign='center' color='orange.200' my={4}>
               <Text>
                 {message ? message : 'Confirm this transaction in your wallet'}
               </Text>
