@@ -35,7 +35,7 @@ const HomePage: FC = () => {
                 </Text>
 
                     <iframe height='600' width='800'
-                        title='naruto'
+                        title='Book of Alchemy Trailer'
                         src='https://www.youtube.com/embed/QiSSOykeDLs'
                         allowFullScreen
                     />
