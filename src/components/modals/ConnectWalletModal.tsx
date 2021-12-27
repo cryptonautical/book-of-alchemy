@@ -39,7 +39,7 @@ const ConnectWalletModal: FC = () => {
       <ModalContent
         borderRadius={isMobile ? 'none' : 'xl'}
         mt={isMobile ? 0 : undefined}
-        bg='orange.800'
+        bg='orange.300'
       >
         <ModalHeader>
           <Text>{active && account ? 'Account' : 'Connect Wallet'}</Text>

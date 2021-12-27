@@ -20,9 +20,6 @@ const UserWallet: FC = () => {
   const buttonProps = {
     bg: 'orange.300',
     variant: 'ghost',
-    _focus: { bg: 'orange.900' },
-    _hover: { bg: 'orange.800' },
-    _active: { bg: 'orange.800' }
   };
 
   if (account) {

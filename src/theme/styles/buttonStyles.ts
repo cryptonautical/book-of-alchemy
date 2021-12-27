@@ -6,15 +6,15 @@ export const ButtonStyles = {
   variants: {
     solid: {
       bg: 'orange.500',
-      color: 'orange.800',
+      color: 'orange.300',
       _hover: {
-        bg: 'orange.400',
+        bg: 'orange.100',
         _disabled: {
           bg: 'orange.400',
         },
       },
       _active: {
-        bg: 'green.400',
+        bg: 'orange.400',
       },
     },
   },
