@@ -5,16 +5,16 @@ export const ButtonStyles = {
   },
   variants: {
     solid: {
-      bg: 'green.500',
-      color: 'gray.800',
+      bg: 'orange.500',
+      color: 'orange.300',
       _hover: {
-        bg: 'green.400',
+        bg: 'orange.100',
         _disabled: {
-          bg: 'green.400',
+          bg: 'orange.400',
         },
       },
       _active: {
-        bg: 'green.400',
+        bg: 'orange.400',
       },
     },
   },
