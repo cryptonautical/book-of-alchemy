@@ -72,6 +72,7 @@
     "@types/remove-markdown": "^0.3.1",
     "@types/uuid": "^8.3.1",
     "@types/web3": "^1.2.2",
+    "hardhat": "^2.9.0",
     "husky": "^4.3.8",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.0"
